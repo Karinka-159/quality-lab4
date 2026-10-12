@@ -1,12 +1,12 @@
-import { defineConfig } from 'vitest/config';
+import { defineConfig } from "vitest/config";
 
 export default defineConfig({
   test: {
-    include: ['src/**/*.test.js'],
-    exclude: ['tests/**', 'node_modules/**'],
+    include: ["src/**/*.test.js"],
+    exclude: ["tests/**", "node_modules/**"],
     coverage: {
-      include: ['src/**/*.js'],
-      exclude: ['**/*.test.js'],
+      include: ["src/**/*.js"],
+      exclude: ["**/*.test.js"],
     },
   },
 });
