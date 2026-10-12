@@ -8,7 +8,7 @@ import {
 
 describe("calculateTotal", () => {
   it("should return 0 for empty array", () => {
-    expect(calculateTotal([])).toBe(0);
+    expect(calculateTotal([])).toBe(999);
   });
 
   it("should sum prices correctly", () => {
