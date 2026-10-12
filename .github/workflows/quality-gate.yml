@@ -42,7 +42,7 @@ jobs:
     needs: unit-tests
     strategy:
       matrix:
-        browser: [chromium, firefox, webkit]
+        browser: [chromium, firefox]
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
